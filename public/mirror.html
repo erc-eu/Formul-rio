@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/css/style.css" media="screen" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+<style>
+
+
+</style>
+<body>
+
+<div class="container">
+    <a href="http://localhost:8080/index.html"><button id="pesq">Querytojson</button></a>
+    <a href="http://localhost:8080/mirror.html"><button id="pesq">Mirror</button></a>
+    <a href="http://localhost:8080/animal.html"><button id="pesq">Animal</button></a>
+</div>
+
+        <div class="center">
+        <form action="/mirror" method="POST">
+            <h1>Mirror</h1>
+            <fieldset id="borda">
+                <label for="name">nome:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="name">role:</label><br>
+                <input type="text" id="role" name="role"><br><br>
+                <center><button id="but" type="submit" value="submit">Enviar </button></center>
+            </fieldset>
+        </form>
+        </div>
+
+</body>
+</html>
